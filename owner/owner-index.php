@@ -505,7 +505,7 @@ include("engine.php");
                   <td><?php echo $rows['property_type'] ?></td>
                   <td><?php echo $rows['latitude'] ?></td>
                   <td><?php echo $rows['longitude'] ?></td>
-                  <td>Rs.<?php echo $rows['estimated_price'] ?></td>
+                  <td>Tk.<?php echo $rows['estimated_price'] ?></td>
                   <td><?php echo $rows['total_rooms'] ?></td>
                   <td><?php echo $rows['bedroom'] ?></td>
                   <td><?php echo $rows['living_room'] ?></td>
