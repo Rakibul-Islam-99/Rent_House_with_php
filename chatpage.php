@@ -39,7 +39,7 @@ color:white;
     padding-left:10%;
   }
   .btn-primary {
-    background-color: ;
+    background-color:green ;
   }
   .display-chat{
     height:300px;

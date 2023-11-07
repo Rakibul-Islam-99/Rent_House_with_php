@@ -7,5 +7,5 @@
       <div class="item active">
         <img src="images/carousel.png" alt="RentHouse" style="width:100%; height: 50%;">
       </div>
-    </div>
+</div>
   </div>

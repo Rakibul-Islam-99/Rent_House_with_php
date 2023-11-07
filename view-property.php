@@ -124,7 +124,7 @@ include('booking-engine.php');
               <td><h4><?php echo $rows['city']; ?></h4></td>
             </tr>
             <tr>
-              <td><h3>VDC/Municipality:</h3></td>
+              <td><h3>Municipality:</h3></td>
               <td><h4><?php echo $rows['vdc_municipality']; ?></h4></td>
             </tr>
             <tr>

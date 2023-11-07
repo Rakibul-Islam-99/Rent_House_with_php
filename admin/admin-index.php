@@ -31,11 +31,11 @@ include("navbar.php");
                 <tr class="header">
                   <th>Id.</th>
                   <th>Country</th>
-                  <th>Province/State</th>
+                  <th>Division</th>
                   <th>Zone</th>
                   <th>District</th>
                   <th>City</th>
-                  <th>VDC/Municipality</th>
+                  <th>Municipality</th>
                   <th>Ward No.</th>
                   <th>Tole</th>
                   <th>Contact No.</th>
@@ -211,7 +211,7 @@ include("navbar.php");
                   <th>Booked Id</th>
                   <th>Booked By</th>
                   <th>Booker Address</th>
-                  <th>Property Province</th>
+                  <th>Property Division</th>
                   <th>Property District</th>
                   <th>Property Zone</th>
                   <th>Property Ward No</th>

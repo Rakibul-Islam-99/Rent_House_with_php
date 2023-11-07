@@ -84,6 +84,7 @@ $sql="SELECT * FROM add_property where concat(zone,district,province,city,tole,p
 </html> 
 
 
+
 <?php 
 
 }

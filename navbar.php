@@ -40,7 +40,7 @@ if(isset($_SESSION["email"]) && !empty($_SESSION['email'])){
           <li><a href="booked-property.php">Booked Property</a></li>
           <li><a href="logout.php">Logout</a></li>
         </ul>
-      </li>
+</li>
 
 
 <?php

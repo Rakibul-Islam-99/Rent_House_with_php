@@ -22,7 +22,7 @@ include("admin-engine.php");
     </div>
     <div class="form-group">
       <a href="forgot-password-owner.php">Lost your Password ? </a> 
-    </div>
+</div>
     <center><input type="submit" id="submit" name="admin_login" class="btn btn-primary btn-block" value="Login"></center>
   </form>
 </div>

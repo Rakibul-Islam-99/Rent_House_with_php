@@ -190,137 +190,83 @@ include("engine.php");
               <label for="country">Country:</label>
               <select class="form-control" name="country" required="required">
                                 <option value="">--Select Country--</option>
-                                <option value="Nepal">Nepal</option>
+                                <option value="Bangladesh">Bangladesh</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="province">Province/State:</label>
+              <label for="province">Division</label>
               <select class="form-control" name="province" required="required">
-                                <option value="">--Select Province/State--</option>
-                                <option value="Province No. 1">Province No. 1</option>
-                                <option value="Province No. 2">Province No. 2</option>
-                                <option value="Bagmati Pradesh">Bagmati Pradesh</option>
-                                <option value="Gandaki Pradesh">Gandaki Pradesh</option>
-                                <option value="Province No. 5">Province No. 5</option>
-                                <option value="Karnali Pradesh">Karnali Pradesh</option>
-                                <option value="Sudurpaschim Pradesh">Sudurpaschim Pradesh</option>
+                                <option value="">--Select Division</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chittagong">Chittagong</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Rangpur">Barishal</option>
               </select>
             </div>
             <div class="form-group">
               <label for="zone">Zone:</label>
               <select class="form-control" name="zone" required="required">
                                 <option value="">--Select Zone--</option>
-                                <option value="Bagmati">Bagmati</option>
-                                <option value="Bheri">Bheri</option>
-                                <option value="Dhawalagiri">Dhawalagiri</option>
-                                <option value="Gandaki">Gandaki</option>
-                                <option value="Janakpur">Janakpur</option>
-                                <option value="Karnali">Karnali</option>
-                                <option value="Kosi">Kosi</option>
-                                <option value="Lumbini">Lumbini</option>
-                                <option value="Mahakali">Mahakali</option>
-                                <option value="Mechi">Mechi</option>
-                                <option value="Narayani">Narayani</option>
-                                <option value="Rapti">Rapti</option>
-                                <option value="Sagarmatha">Sagarmatha</option>
-                                <option value="Seti">Seti</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chittagonj">Chittagonj</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Barishal">Barishal</option>
+                                <option value="Sylhet">Sylhet</option>
+                                
+                                
                             </select>
             </div>
             <div class="form-group">
               <label for="district">District:</label>
               <select class="form-control" name="district" required="required">
-                                %{--Mechi--}%
+                                %{--Dhaka--}%
                                 <option value="">--Select District--</option>
-                                <option value="Taplejung">Taplejung</option>
-                                <option value="Panchthar">Panchthar</option>
-                                <option value="Ilam">Ilam</option>
-                                <option value="Jhapa">Jhapa</option>
-                                %{--Koshi--}%
-                                <option value="Morang">Morang</option>
-                                <option value="Sunsari">Sunsari</option>
-                                <option value="Dhankutta">Dhankutta</option>
-                                <option value="Sankhuwasabha">Sankhuwasabha</option>
-                                <option value="Bhojpur">Bhojpur</option>
-                                <option value="Terhathum">Terhathum</option>
-                                %{--Sagarmatha--}%
-                                <option value="Okhaldunga">Okhaldunga</option>
-                                <option value="Khotang">Khotang</option>
-                                <option value="Solukhumbu">Solukhumbu</option>
-                                <option value="Udaypur">Udaypur</option>
-                                <option value="Saptari">Saptari</option>
-                                <option value="Siraha">Siraha</option>
-                                %{--Janakpur--}%
-                                <option value="Dhanusa">Dhanusa</option>
-                                <option value="Mahottari">Mahottari</option>
-                                <option value="Sarlahi">Sarlahi</option>
-                                <option value="Sindhuli">Sindhuli</option>
-                                <option value="Ramechhap">Ramechhap</option>
-                                <option value="Dolkha">Dolkha</option>
-                                %{--Bagmati--}%
-                                <option value="Sindhupalchauk">Sindhupalchauk</option>
-                                <option value="Kavreplanchauk">Kavreplanchauk</option>
-                                <option value="Lalitpur">Lalitpur</option>
-                                <option value="Bhaktapur">Bhaktapur</option>
-                                <option value="Kathmandu">Kathmandu</option>
-                                <option value="Nuwakot">Nuwakot</option>
-                                <option value="Rasuwa">Rasuwa</option>
-                                <option value="Dhading">Dhading</option>
-                                %{--Narayani--}%
-                                <option value="Makwanpur">Makwanpur</option>
-                                <option value="Rauthat">Rauthat</option>
-                                <option value="Bara">Bara</option>
-                                <option value="Parsa">Parsa</option>
-                                <option value="Chitwan">Chitwan</option>
-                                %{--Gandaki--}%
-                                <option value="Gorkha">Gorkha</option>
-                                <option value="Lamjung">Lamjung</option>
-                                <option value="Tanahun">Tanahun</option>
-                                <option value="Tanahun">Tanahun</option>
-                                <option value="Syangja">Syangja</option>
-                                <option value="Kaski">Kaski</option>
-                                <option value="Manag">Manag</option>
-                                %{--Dhawalagiri--}%
-                                <option value="Mustang">Mustang</option>
-                                <option value="Parwat">Parwat</option>
-                                <option value="Myagdi">Myagdi</option>
-                                <option value="Myagdi">Myagdi</option>
-                                <option value="Baglung">Baglung</option>
-                                %{--Lumbini--}%
-                                <option value="Gulmi">Gulmi</option>
-                                <option value="Palpa">Palpa</option>
-                                <option value="Nawalparasi">Nawalparasi</option>
-                                <option value="Rupandehi">Rupandehi</option>
-                                <option value="Arghakhanchi">Arghakhanchi</option>
-                                <option value="Kapilvastu">Kapilvastu</option>
-                                %{--Rapti--}%
-                                <option value="Pyuthan">Pyuthan</option>
-                                <option value="Rolpa">Rolpa</option>
-                                <option value="Rukum">Rukum</option>
-                                <option value="Salyan">Salyan</option>
-                                <option value="Dang">Dang</option>
-                                %{--Bheri--}%
-                                <option value="Bardiya">Bardiya</option>
-                                <option value="Surkhet">Surkhet</option>
-                                <option value="Dailekh">Dailekh</option>
-                                <option value="Banke">Banke</option>
-                                <option value="Jajarkot">Jajarkot</option>
-                                %{--Karnali--}%
-                                <option value="Dolpa">Dolpa</option>
-                                <option value="Humla">Humla</option>
-                                <option value="Kalikot">Kalikot</option>
-                                <option value="Mugu">Mugu</option>
-                                <option value="Jumla">Jumla</option>
-                                %{--Seti--}%
-                                <option value="Bajura">Bajura</option>
-                                <option value="Bajhang">Bajhang</option>
-                                <option value="Achham">Achham</option>
-                                <option value="Doti">Doti</option>
-                                <option value="Kailali">Kailali</option>
-                                %{--Mahakali--}%
-                                <option value="Kanchanpur">Kanchanpur</option>
-                                <option value="Dadeldhura">Dadeldhura</option>
-                                <option value="Baitadi">Baitadi</option>
-                                <option value="Darchula">Darchula</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Gazipur">Gazipur</option>
+                                <option value="Narayanganj">Narayanganj</option>
+                                <option value="Munshiganj">Munshiganj</option>
+                                %{--Chittaganj--}%
+                                <option value="Chittaganj">Chittaganj</option>
+                                <option value="Cumilla">Cumilla</option>
+                                <option value="Noyakhali">Noyakhali</option>
+                                <option value="CoxBazar">CoxBazar</option>
+                              
+                                %{--Rajshahi--}%
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Natore">Natore</option>
+                                <option value="Pabna">Pabna</option>
+                                
+                                %{--Sylhet--}%
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="hobiganj">Hobiganj</option>
+                              
+                                %{--Rangpur--}%
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Bagura">Bagura</option>
+                                
+                                %{--Barishal--}%
+                                <option value="Barishal">Barishal</option>
+                                <option value="Vola">Vola</option>
+                                <option value="Patuakhali">Patuakhali</option>
+                                
+                                %{--Khulna--}%
+                                <option value="Khulna">Khulna</option>
+                                <option value="Kusthia">Kusthia</option>
+                                <option value="Jessore">Jessore</option>
+                                <option value="Magura">Magura</option>
+                                
+                                %{--Moymonsing--}%
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Netrokona">Netrokona</option>
+                                
+                               
                             </select>
             </div>
             <div class="form-group">
@@ -431,7 +377,7 @@ include("engine.php");
                 <tr class="header">
                   <th>Id.</th>
                   <th>Country</th>
-                  <th>Province/State</th>
+                  <th>Division</th>
                   <th>Zone</th>
                   <th>District</th>
                   <th>City</th>
@@ -514,7 +460,7 @@ include("engine.php");
                 <tr class="header">
                   <th>Id.</th>
                   <th>Country</th>
-                  <th>Province/State</th>
+                  <th>Division</th>
                   <th>Zone</th>
                   <th>District</th>
                   <th>City</th>
@@ -604,137 +550,88 @@ include("engine.php");
               <label for="country">Country:</label>
               <select class="form-control" name="country" required="required">
                                 <option value="">--Select Country--</option>
-                                <option value="Nepal">Nepal</option>
+                                <option value="Bangladesh">Bangladesh</option>
               </select>
-            </div>
+
+
+              </div>
             <div class="form-group">
-              <label for="province">Province/State:</label>
+              <label for="province">Division</label>
               <select class="form-control" name="province" required="required">
-                                <option value="">--Select Province/State--</option>
-                                <option value="Province No. 1">Province No. 1</option>
-                                <option value="Province No. 2">Province No. 2</option>
-                                <option value="Bagmati Pradesh">Bagmati Pradesh</option>
-                                <option value="Gandaki Pradesh">Gandaki Pradesh</option>
-                                <option value="Province No. 5">Province No. 5</option>
-                                <option value="Karnali Pradesh">Karnali Pradesh</option>
-                                <option value="Sudurpaschim Pradesh">Sudurpaschim Pradesh</option>
+                                <option value="">--Select Division</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chittagong">Chittagong</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Rangpur">Barishal</option>
               </select>
             </div>
             <div class="form-group">
               <label for="zone">Zone:</label>
               <select class="form-control" name="zone" required="required">
                                 <option value="">--Select Zone--</option>
-                                <option value="Bagmati">Bagmati</option>
-                                <option value="Bheri">Bheri</option>
-                                <option value="Dhawalagiri">Dhawalagiri</option>
-                                <option value="Gandaki">Gandaki</option>
-                                <option value="Janakpur">Janakpur</option>
-                                <option value="Karnali">Karnali</option>
-                                <option value="Kosi">Kosi</option>
-                                <option value="Lumbini">Lumbini</option>
-                                <option value="Mahakali">Mahakali</option>
-                                <option value="Mechi">Mechi</option>
-                                <option value="Narayani">Narayani</option>
-                                <option value="Rapti">Rapti</option>
-                                <option value="Sagarmatha">Sagarmatha</option>
-                                <option value="Seti">Seti</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chittagonj">Chittagonj</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Barishal">Barishal</option>
+                                <option value="Sylhet">Sylhet</option>
+                                
+                                
                             </select>
             </div>
             <div class="form-group">
               <label for="district">District:</label>
               <select class="form-control" name="district" required="required">
-                                %{--Mechi--}%
+                                %{--Dhaka--}%
                                 <option value="">--Select District--</option>
-                                <option value="Taplejung">Taplejung</option>
-                                <option value="Panchthar">Panchthar</option>
-                                <option value="Ilam">Ilam</option>
-                                <option value="Jhapa">Jhapa</option>
-                                %{--Koshi--}%
-                                <option value="Morang">Morang</option>
-                                <option value="Sunsari">Sunsari</option>
-                                <option value="Dhankutta">Dhankutta</option>
-                                <option value="Sankhuwasabha">Sankhuwasabha</option>
-                                <option value="Bhojpur">Bhojpur</option>
-                                <option value="Terhathum">Terhathum</option>
-                                %{--Sagarmatha--}%
-                                <option value="Okhaldunga">Okhaldunga</option>
-                                <option value="Khotang">Khotang</option>
-                                <option value="Solukhumbu">Solukhumbu</option>
-                                <option value="Udaypur">Udaypur</option>
-                                <option value="Saptari">Saptari</option>
-                                <option value="Siraha">Siraha</option>
-                                %{--Janakpur--}%
-                                <option value="Dhanusa">Dhanusa</option>
-                                <option value="Mahottari">Mahottari</option>
-                                <option value="Sarlahi">Sarlahi</option>
-                                <option value="Sindhuli">Sindhuli</option>
-                                <option value="Ramechhap">Ramechhap</option>
-                                <option value="Dolkha">Dolkha</option>
-                                %{--Bagmati--}%
-                                <option value="Sindhupalchauk">Sindhupalchauk</option>
-                                <option value="Kavreplanchauk">Kavreplanchauk</option>
-                                <option value="Lalitpur">Lalitpur</option>
-                                <option value="Bhaktapur">Bhaktapur</option>
-                                <option value="Kathmandu">Kathmandu</option>
-                                <option value="Nuwakot">Nuwakot</option>
-                                <option value="Rasuwa">Rasuwa</option>
-                                <option value="Dhading">Dhading</option>
-                                %{--Narayani--}%
-                                <option value="Makwanpur">Makwanpur</option>
-                                <option value="Rauthat">Rauthat</option>
-                                <option value="Bara">Bara</option>
-                                <option value="Parsa">Parsa</option>
-                                <option value="Chitwan">Chitwan</option>
-                                %{--Gandaki--}%
-                                <option value="Gorkha">Gorkha</option>
-                                <option value="Lamjung">Lamjung</option>
-                                <option value="Tanahun">Tanahun</option>
-                                <option value="Tanahun">Tanahun</option>
-                                <option value="Syangja">Syangja</option>
-                                <option value="Kaski">Kaski</option>
-                                <option value="Manag">Manag</option>
-                                %{--Dhawalagiri--}%
-                                <option value="Mustang">Mustang</option>
-                                <option value="Parwat">Parwat</option>
-                                <option value="Myagdi">Myagdi</option>
-                                <option value="Myagdi">Myagdi</option>
-                                <option value="Baglung">Baglung</option>
-                                %{--Lumbini--}%
-                                <option value="Gulmi">Gulmi</option>
-                                <option value="Palpa">Palpa</option>
-                                <option value="Nawalparasi">Nawalparasi</option>
-                                <option value="Rupandehi">Rupandehi</option>
-                                <option value="Arghakhanchi">Arghakhanchi</option>
-                                <option value="Kapilvastu">Kapilvastu</option>
-                                %{--Rapti--}%
-                                <option value="Pyuthan">Pyuthan</option>
-                                <option value="Rolpa">Rolpa</option>
-                                <option value="Rukum">Rukum</option>
-                                <option value="Salyan">Salyan</option>
-                                <option value="Dang">Dang</option>
-                                %{--Bheri--}%
-                                <option value="Bardiya">Bardiya</option>
-                                <option value="Surkhet">Surkhet</option>
-                                <option value="Dailekh">Dailekh</option>
-                                <option value="Banke">Banke</option>
-                                <option value="Jajarkot">Jajarkot</option>
-                                %{--Karnali--}%
-                                <option value="Dolpa">Dolpa</option>
-                                <option value="Humla">Humla</option>
-                                <option value="Kalikot">Kalikot</option>
-                                <option value="Mugu">Mugu</option>
-                                <option value="Jumla">Jumla</option>
-                                %{--Seti--}%
-                                <option value="Bajura">Bajura</option>
-                                <option value="Bajhang">Bajhang</option>
-                                <option value="Achham">Achham</option>
-                                <option value="Doti">Doti</option>
-                                <option value="Kailali">Kailali</option>
-                                %{--Mahakali--}%
-                                <option value="Kanchanpur">Kanchanpur</option>
-                                <option value="Dadeldhura">Dadeldhura</option>
-                                <option value="Baitadi">Baitadi</option>
-                                <option value="Darchula">Darchula</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Gazipur">Gazipur</option>
+                                <option value="Narayanganj">Narayanganj</option>
+                                <option value="Munshiganj">Munshiganj</option>
+                                %{--Chittaganj--}%
+                                <option value="Chittaganj">Chittaganj</option>
+                                <option value="Cumilla">Cumilla</option>
+                                <option value="Noyakhali">Noyakhali</option>
+                                <option value="CoxBazar">CoxBazar</option>
+                              
+                                %{--Rajshahi--}%
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Natore">Natore</option>
+                                <option value="Pabna">Pabna</option>
+                                
+                                %{--Sylhet--}%
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="hobiganj">Hobiganj</option>
+                              
+                                %{--Rangpur--}%
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Bagura">Bagura</option>
+                                
+                                %{--Barishal--}%
+                                <option value="Barishal">Barishal</option>
+                                <option value="Vola">Vola</option>
+                                <option value="Patuakhali">Patuakhali</option>
+                                
+                                %{--Khulna--}%
+                                <option value="Khulna">Khulna</option>
+                                <option value="Kusthia">Kusthia</option>
+                                <option value="Jessore">Jessore</option>
+                                <option value="Magura">Magura</option>
+                                
+                                %{--Moymonsing--}%
+                                <option value="Moymonsing">Moymonsing</option>
+                                <option value="Netrokona">Netrokona</option>
+
+
+
+
+              
                             </select>
             </div>
             <div class="form-group">
@@ -823,7 +720,7 @@ include("engine.php");
                 <tr class="header">
                   <th>Booked By</th>
                   <th>Booker Address</th>
-                  <th>Property Province</th>
+                  <th>Property Division</th>
                   <th>Property District</th>
                   <th>Property Zone</th>
                   <th>Property Ward No</th>
